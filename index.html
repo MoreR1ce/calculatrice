@@ -12,12 +12,259 @@
       <h1>Calculatrices cliniques<h1>
     </header>
 
+
+
+        
+  <!--Description-->
+
+
+
+        
     <main>
       <p>
         Bienvenue sur notre calculatrice de conversion automatique! 
       </p>
     </main>
-    <div id=calculatrice>
+
+
+        
+<!--Calculatrice IECA & ARA-->
+
+
+
+        
+    <div id=calculatriceiecaara>
+    <table>
+      <tbody>
+        <tr>
+          <th>
+              <label for="ieca-ara-départ"> 
+                IECA ou ARA de départ :  
+              </label>
+          </th>
+          <td>
+            <select name="ieca-ara-" id="ieca-ara-départ">
+              <option value="">--Choisissez une option--</option>
+              <option value="captopril">Captopril</option>
+              <option value="cizalapril">Cizalapril</option>
+              <option value="enalapril">Enalapril</option>
+              <option value="fosinopril">Fosinopril</option>
+              <option value="lisinopril">Lisinopril</option>
+              <option value="perindopril">Perindopril</option>
+              <option value="quinapril">Quinapril</option>
+              <option value="ramipril">Ramipril</option>
+              <option value="trandolapril">Trandolapril</option>
+              <option value="azilsartan">Azilsartan</option>
+              <option value="candésartan">Candésartan</option>
+              <option value="irbesartan">Irbesartan</option>
+              <option value="losartan">Losartan</option>
+              <option value="olmésartan">Olmésartan</option>
+              <option value="telmisartan">Telmisartan</option>
+              <option value="valsartan">Valsartan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <label for="dose-départ">
+               Dose de départ :
+             </label>
+          </th>
+          <td>
+            <input type="number" name="dose-départ-" id=dose-départ/>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="ieca-ara-final">
+              IECA ou ARA final :  
+            </label>
+          </th>
+          <td>
+            <select name="-ieca-ara" id="ieca-ara-final">
+              <option value="">--Choisissez une option--</option>
+              <option value="captopril">Captopril</option>
+              <option value="cizalapril">Cizalapril</option>
+              <option value="enalapril">Enalapril</option>
+              <option value="fosinopril">Fosinopril</option>
+              <option value="lisinopril">Lisinopril</option>
+              <option value="perindopril">Perindopril</option>
+              <option value="quinapril">Quinapril</option>
+              <option value="ramipril">Ramipril</option>
+              <option value="trandolapril">Trandolapril</option>
+              <option value="azilsartan">Azilsartan</option>
+              <option value="candésartan">Candésartan</option>
+              <option value="irbesartan">Irbesartan</option>
+              <option value="losartan">Losartan</option>
+              <option value="olmésartan">Olmésartan</option>
+              <option value="telmisartan">Telmisartan</option>
+              <option value="valsartan">Valsartan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          
+        </tr>
+      </tbody>
+    </table>
+      
+      <script src="calc.js"></script>
+    </div>
+
+
+
+
+
+<!--Description entre IECA & ARA et insulines lentes-->
+
+  
+
+
+
+
+        
+    <p>
+      
+      * IECA : Inhibiteurs de l’enzyme de conversion de l’angiotensine  
+      <br>
+      * ARA : Antagonistes des récepteurs de l’angiotensine II 
+      <br>
+       À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé! 
+
+      <br>
+      <br>
+      
+      En raison de la grande variabilité des doses équivalentes d’IECA et d’ARA, un consensus a été établi basé sur une revue de la littérature pour établir les équivalences en fonction de celles les plus prévalentes dans les ouvrages. 
+      <br>
+      <br>
+      Calculatrice de conversion de doses équivalentes entre les insulines à action lente 
+    </p>
+
+
+
+
+
+        
+<!--Calculatrice insulines lentes-->
+
+
+
+
+        
+
+        <div id=calculatriceinsulinesl>
+    <table>
+      <tbody>
+        <tr>
+          <th>
+              <label for="insuline-lente-départ"> 
+                Insuline lente de départ :  
+              </label>
+          </th>
+          <td>
+            <select name="insulinel" id="insuline-lente-départ">
+              <option value="">--Choisissez une option--</option>
+              <option value="captopril">Captopril</option>
+              <option value="cizalapril">Cizalapril</option>
+              <option value="enalapril">Enalapril</option>
+              <option value="fosinopril">Fosinopril</option>
+              <option value="lisinopril">Lisinopril</option>
+              <option value="perindopril">Perindopril</option>
+              <option value="quinapril">Quinapril</option>
+              <option value="ramipril">Ramipril</option>
+              <option value="trandolapril">Trandolapril</option>
+              <option value="azilsartan">Azilsartan</option>
+              <option value="candésartan">Candésartan</option>
+              <option value="irbesartan">Irbesartan</option>
+              <option value="losartan">Losartan</option>
+              <option value="olmésartan">Olmésartan</option>
+              <option value="telmisartan">Telmisartan</option>
+              <option value="valsartan">Valsartan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <label for="dose-départ">
+               Dose de départ :
+             </label>
+          </th>
+          <td>
+            <input type="number" name="dose-départ-" id=dose-départ/>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="ieca-ara-final">
+              IECA ou ARA final :  
+            </label>
+          </th>
+          <td>
+            <select name="-ieca-ara" id="ieca-ara-final">
+              <option value="">--Choisissez une option--</option>
+              <option value="captopril">Captopril</option>
+              <option value="cizalapril">Cizalapril</option>
+              <option value="enalapril">Enalapril</option>
+              <option value="fosinopril">Fosinopril</option>
+              <option value="lisinopril">Lisinopril</option>
+              <option value="perindopril">Perindopril</option>
+              <option value="quinapril">Quinapril</option>
+              <option value="ramipril">Ramipril</option>
+              <option value="trandolapril">Trandolapril</option>
+              <option value="azilsartan">Azilsartan</option>
+              <option value="candésartan">Candésartan</option>
+              <option value="irbesartan">Irbesartan</option>
+              <option value="losartan">Losartan</option>
+              <option value="olmésartan">Olmésartan</option>
+              <option value="telmisartan">Telmisartan</option>
+              <option value="valsartan">Valsartan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          
+        </tr>
+      </tbody>
+    </table>
+      
+    
+
+      <script src="calc.js"></script>
+    </div>
+
+        
+
+
+
+
+<!--Description entre insulines lentes et insulines rapides-->
+
+  
+
+
+
+
+        
+    <p>
+     À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé! 
+      <br>
+      <br>
+      Calculatrice de conversion de doses équivalentes entre les insulines à action rapide 
+    </p>
+
+
+
+
+
+        
+<!--Calculatrice insulines rapides-->
+
+
+
+
+        
+
+        <div id=calculatriceiecaara>
     <table>
       <tbody>
         <tr>
@@ -96,19 +343,15 @@
 
       <script src="calc.js"></script>
     </div>
-    <p>
-      * IECA : Inhibiteurs de l’enzyme de conversion de l’angiotensine  
-      <br>
-      * ARA : Antagonistes des récepteurs de l’angiotensine II 
-      <br>
-      <br>
-      En raison de la grande variabilité des doses équivalentes d’IECA et d’ARA, un consensus a été établi basé sur une revue de la littérature pour établir les équivalences en fonction de celles les plus prévalentes dans les ouvrages. 
-      <br>
-      <br>
-      Calculatrice de conversion de doses équivalentes entre les insulines à action rapide 
-    </p>
-    <footer>
 
+         <p>
+     À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé! 
+         </p>
+
+    <footer>
+      <p>
+        
+      </p>
     </footer>
 
 
