@@ -119,7 +119,9 @@ table {
     text-align: center;
 }
 
-table {
-    width: 80%;
-}
+#answer_B,
+#answer_A {
+    margin: 25% 5% 25% 15%;
+    border-radius: 10px;
+    text-align: center;
 }
