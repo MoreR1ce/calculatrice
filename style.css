@@ -53,6 +53,7 @@ input {
     font-family: inherit;
     font-size: 75%;
     background: white;
+    color: black;
     border: 3px solid black;
     font-weight: bold;
     text-align: center;
@@ -70,6 +71,7 @@ button {
     font-family: inherit;
     font-size: 100%;
     background: white;
+    color: black;
     border: 3px solid black;
     font-weight: bold;
     text-align: left;
