@@ -54,12 +54,39 @@ input {
     width: 100%;
 }
 
+button {
+    font-family: inherit;
+    font-size: 100%;
+    background: white;
+    border: 3px solid black;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(255, 198, 141);
+    padding: 2% 4%;
+    box-shadow: 0 7px rgb(255, 166, 0);
+  }
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(7px);
+}
+
 @media only screen and (max-width: 480px) {
 html {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 3.5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 4rem;
 }
+table {
+    width: 100%;
+}
+}
+
 table {
     width: 80%;
 }
