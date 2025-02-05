@@ -24,7 +24,7 @@
       <p>
         Bienvenue sur notre calculatrice de conversion automatique! 
       </p>
-    </main>
+   
 
 
         
@@ -66,12 +66,12 @@
         </tr>
         <tr>
           <th>
-             <label for="dose-départ">
+             <label for="dose-départ-IECA-ARA">
                Dose de départ :
              </label>
           </th>
           <td>
-            <input type="number" name="dose-départ-" id=dose-départ/>
+            <input type="number" name="dose-départ-ieca-ara-" id=dose-départ-IECA-ARA/>
           </td>
         </tr>
         <tr>
@@ -162,62 +162,46 @@
               </label>
           </th>
           <td>
-            <select name="insulinel" id="insuline-lente-départ">
+            <select name="insulinel-" id="insuline-lente-départ">
               <option value="">--Choisissez une option--</option>
-              <option value="captopril">Captopril</option>
-              <option value="cizalapril">Cizalapril</option>
-              <option value="enalapril">Enalapril</option>
-              <option value="fosinopril">Fosinopril</option>
-              <option value="lisinopril">Lisinopril</option>
-              <option value="perindopril">Perindopril</option>
-              <option value="quinapril">Quinapril</option>
-              <option value="ramipril">Ramipril</option>
-              <option value="trandolapril">Trandolapril</option>
-              <option value="azilsartan">Azilsartan</option>
-              <option value="candésartan">Candésartan</option>
-              <option value="irbesartan">Irbesartan</option>
-              <option value="losartan">Losartan</option>
-              <option value="olmésartan">Olmésartan</option>
-              <option value="telmisartan">Telmisartan</option>
-              <option value="valsartan">Valsartan</option>
+              <option value="nph-die">NPH DIE</option>
+              <option value="nph-bid">NPH BID</option>
+              <option value="détémir-die">Détémir DIE</option>
+              <option value="détémir-bid">Détémir BID</option>
+              <option value="glargine-100">Glargine 100u/mL</option>
+              <option value="glargine-300">Glargine 300u/mL</option>
+              <option value="déglutec">Déglutec</option>
+              <option value="icodec">Icodec</option>
             </select>
           </td>
         </tr>
         <tr>
           <th>
-             <label for="dose-départ">
-               Dose de départ :
+             <label for="dose-départ-insuline-lente">
+               Dose de départ (U) :
              </label>
           </th>
           <td>
-            <input type="number" name="dose-départ-" id=dose-départ/>
+            <input type="number" name="dose-départ-insuline-lente-" id=dose-départ-insuline-lente/>
           </td>
         </tr>
         <tr>
           <th>
-            <label for="ieca-ara-final">
-              IECA ou ARA final :  
+            <label for="insulie-lente-finale">
+              Insuline lente finale :  
             </label>
           </th>
           <td>
-            <select name="-ieca-ara" id="ieca-ara-final">
-              <option value="">--Choisissez une option--</option>
-              <option value="captopril">Captopril</option>
-              <option value="cizalapril">Cizalapril</option>
-              <option value="enalapril">Enalapril</option>
-              <option value="fosinopril">Fosinopril</option>
-              <option value="lisinopril">Lisinopril</option>
-              <option value="perindopril">Perindopril</option>
-              <option value="quinapril">Quinapril</option>
-              <option value="ramipril">Ramipril</option>
-              <option value="trandolapril">Trandolapril</option>
-              <option value="azilsartan">Azilsartan</option>
-              <option value="candésartan">Candésartan</option>
-              <option value="irbesartan">Irbesartan</option>
-              <option value="losartan">Losartan</option>
-              <option value="olmésartan">Olmésartan</option>
-              <option value="telmisartan">Telmisartan</option>
-              <option value="valsartan">Valsartan</option>
+            <select name="-insulinel" id="insuline-lente-finale">
+               <option value="">--Choisissez une option--</option>
+              <option value="nph-die">NPH DIE</option>
+              <option value="nph-bid">NPH BID</option>
+              <option value="détémir-die">Détémir DIE</option>
+              <option value="détémir-bid">Détémir BID</option>
+              <option value="glargine-100">Glargine 100u/mL</option>
+              <option value="glargine-300">Glargine 300u/mL</option>
+              <option value="déglutec">Déglutec</option>
+              <option value="icodec">Icodec</option>
             </select>
           </td>
         </tr>
@@ -347,10 +331,16 @@
          <p>
      À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé! 
          </p>
-
+    </main>
     <footer>
       <p>
-        
+        Cet outil a été développé dans le cadre du projet d’exploration de pharmacie à l’Université Laval. Vous trouverez trois calculatrices de conversion, soit pour la conversion de doses d’insulines rapides, insulines lentes et une calculatrice de conversion IECA/ARA 
+        <br>
+        <br>
+        L’objectif principal de notre projet est de faciliter le travail des pharmaciens en optimisant leur temps et en leur offrant un outil sécuritaire qui permet d’éviter des erreurs de calcul.  
+        <br>
+        <br>
+        Outils de conversion développés par : Jérémy Gagné, Morris Garon, Sandrine Henri & Sandrine Tassé 
       </p>
     </footer>
 
