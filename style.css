@@ -112,4 +112,14 @@ footer {
 table {
     width: 80%;
 }
+
+#answer_C {
+    margin: 25% 5% 25% 25%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+}
 }
