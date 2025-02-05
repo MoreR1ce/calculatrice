@@ -10,7 +10,7 @@ table {
   width: 66%;
   border-collapse: collapse;
   border: 3px solid black;
-    border-radius: 30px;
+  border-radius: 20px;
 }
 
 th,
@@ -34,4 +34,15 @@ footer {
 
 #calculatrice-insulines-rapides {
     margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+html {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
+table {
+    width: 80%;
+}
 }
