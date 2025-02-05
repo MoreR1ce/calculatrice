@@ -27,7 +27,8 @@ td {
     text-align: center;
 }
 
-div {
+div,
+footer {
     margin-top: 65px;
 }
 
