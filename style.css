@@ -56,7 +56,14 @@ input {
     border: 3px solid black;
     font-weight: bold;
     text-align: center;
-    width: 100%;
+}
+
+select {
+    width: 90%;
+}
+
+input {
+    width: 86.5%;
 }
 
 button {
