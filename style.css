@@ -97,7 +97,11 @@ html {
     font-size: 4rem;
 }
 table {
-    width: 100%;
+    width: auto;
+}
+footer {
+    margin-left: none;
+    margin-right: none;
 }
 }
 
