@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
   <title>Calculatrices cliniques</title>
@@ -116,7 +116,7 @@
       </tbody>
     </table>
       
-      <script src="calc.js"></script>
+      <script src="ieca-ara.js"></script>
      <p>
       
       * IECA : Inhibiteurs de l’enzyme de conversion de l’angiotensine  
@@ -184,7 +184,7 @@
         <tr>
           <th>
              <label for="dose-départ-insuline-lente">
-               Dose de départ (U) :
+               Dose de départ (u) :
              </label>
           </th>
           <td>
@@ -221,7 +221,7 @@
       
     
 
-      <script src="calc.js"></script>
+      <script src="insulines-lentes.js"></script>
    <p>
      * À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé! 
     </p>
@@ -278,7 +278,7 @@
         <tr>
           <th>
              <label for="dose-départ-insuline-rapide">
-               Dose de départ (U) :
+               Dose de départ (u) :
              </label>
           </th>
           <td>
@@ -303,20 +303,29 @@
         </tr>
         <tr>
           <th colspan="2">
-            <button type="button">Calculer!</button>
+            <button type="button" id="button_C" onclick="FunctionC()">Calculer!</button>
+            <script src="insulines-rapides.js"></script>
+            <span id="answer_C">
+            </span>
           </th>  
         </tr>
       </tbody>
     </table>
-      
-      <script src="calc.js"></script>
+  
           <p>
      * À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé! 
          </p>
-    </div>
+     </div>
+   </main>
 
-         
-    </main>
+
+
+
+<!--Bas de page-->    
+
+
+
+
     <footer>
       <p>
         Cet outil a été développé dans le cadre du projet d’exploration de pharmacie à l’Université Laval. Vous trouverez trois calculatrices de conversion, soit pour la conversion de doses d’insulines rapides, insulines lentes et une calculatrice de conversion IECA/ARA.
