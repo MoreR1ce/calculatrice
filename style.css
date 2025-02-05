@@ -43,6 +43,11 @@ footer {
     margin-bottom: 50px;
 }
 
+#révision {
+    font-size: 60%;
+    font-style: italic;
+}
+
 select,
 input {
     font-family: inherit;
