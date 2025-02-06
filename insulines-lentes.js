@@ -306,6 +306,60 @@ function FunctionB() {
         }
 
 
-        let yolo1 = insulineld + " " + dose + "u ----» " + insulinelf + " " + malcom + "u";    
+
+        if (insulineld === "nph-die") {
+            insulineld1 = "NPH DIE";
+        }
+        if (insulineld === "nph-bid") {
+            insulineld1 = "NPH BID";
+        }
+        if (insulineld === "détémir-die") {
+            insulineld1 = "Détémir DIE";
+        }
+        if (insulineld === "détémir-bid") {
+            insulineld1 = "Détémir BID";
+        }
+        if (insulineld === "glargine-100") {
+            insulineld1 = "Glargine 100u/mL";
+        }
+        if (insulineld === "glargine-300") {
+            insulineld1 = "Glargine 300u/mL";
+        }
+        if (insulineld === "dégludec") {
+            insulineld1 = "Dégludec";
+        }
+        if (insulineld === "icodec") {
+            insulineld1 = "Icodec";
+        }
+
+
+        if (insulinelf === "nph-die") {
+            insulinelf1 = "NPH DIE";
+        }
+        if (insulinelf === "nph-bid") {
+            insulinelf1 = "NPH BID";
+        }
+        if (insulinelf === "détémir-die") {
+            insulinelf1 = "Détémir DIE";
+        }
+        if (insulinelf === "détémir-bid") {
+            insulinelf1 = "Détémir BID";
+        }
+        if (insulinelf === "glargine-100") {
+            insulinelf1 = "Glargine 100u/mL";
+        }
+        if (insulinelf === "glargine-300") {
+            insulinelf1 = "Glargine 300u/mL";
+        }
+        if (insulinelf === "dégludec") {
+            insulinelf1 = "Dégludec";
+        }
+        if (insulinelf === "icodec") {
+            insulinelf1 = "Icodec";
+        }
+
+
+    
+        let yolo1 = insulineld1 + " " + dose + "u ----» " + insulinelf1 + " " + malcom + "u";    
         document.getElementById("answer_B").textContent = yolo1;
 }
