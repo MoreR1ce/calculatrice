@@ -7,6 +7,35 @@ function FunctionC() {
     var dose = document.querySelector("#dose-départ-insuline-rapide").value;
     var insulinerd = document.querySelector("#insuline-rapide-départ").value;
     var insulinerf = document.querySelector("#insuline-rapide-finale").value;
-    let yolo = insulinerd + " " + dose + "u ----» " + insulinerf + " " + dose + "u";
-    document.getElementById("answer_C").textContent = yolo;
+
+    if (insulinerd === "asparte") {
+        insulinerd1 = "d'asparte";
+    }
+    if (insulinerd === "glulisine") {
+        insulinerd1 = "de glulisine";
+    }
+    if (insulinerd === "lispro") {
+        insulinerd1 = "de lispro";
+    }
+    if (insulinerd === "régulière") {
+        insulinerd1 = "de régulière";
+    }
+   
+
+
+    if (insulinerf === "asparte") {
+        insulinerf1 = "d'asparte";
+    }
+    if (insulinerf === "glulisine") {
+        insulinerf1 = "de glulisine";
+    }
+    if (insulinerf === "lispro") {
+        insulinerf1 = "de lispro";
+    }
+    if (insulinerf === "régulière") {
+        insulinerf1 = "de régulière";
+    }
+
+    let yolo1 = dose + "u " + insulinerd1 + " équivaut à " + dose + "u " + insulinerf1;    
+    document.getElementById("answer_C").textContent = yolo1;
 }
