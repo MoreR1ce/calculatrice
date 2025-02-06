@@ -110,18 +110,18 @@ footer {
 }
 
 table {
-    width: 100%;
+    width: 90%;
 }
 
 #answer_C {
-    margin: 25% 5% 25% 5%;
+    margin: 25% 5% 25% 7.5%;
     border-radius: 10px;
     text-align: center;
 }
 
 #answer_B,
 #answer_A {
-    margin: 25% 5% 25% 5%;
+    margin: 25% 5% 25% 7.5%;
     border-radius: 10px;
     text-align: center;
 }
