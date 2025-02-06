@@ -360,6 +360,6 @@ function FunctionB() {
 
 
     
-        let yolo1 = insulineld1 + " " + dose + "u ----» " + insulinelf1 + " " + malcom + "u";    
+        let yolo1 = dose + " de " + insulineld1 + " équivaut à " malcom + " de " + insulinelf1;    
         document.getElementById("answer_B").textContent = yolo1;
 }
