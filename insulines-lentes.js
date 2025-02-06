@@ -36,8 +36,8 @@ function FunctionB() {
         if (insulineld === "nph-die" && insulinelf === "glargine-300") {
             malcom = Math.round(dose);
         }
-        // NPH DIE vers Déglutec
-        if (insulineld === "nph-die" && insulinelf === "déglutec") {
+        // NPH DIE vers Dégludec
+        if (insulineld === "nph-die" && insulinelf === "dégludec") {
             malcom = Math.round(dose);
         }
         // NPH DIE vers Icodec
@@ -73,8 +73,8 @@ function FunctionB() {
         if (insulineld === "nph-bid" && insulinelf === "glargine-300") {
             malcom = Math.round(dose * 2 * 0.8);
         }
-        // NPH BID vers Déglutec
-        if (insulineld === "nph-bid" && insulinelf === "déglutec") {
+        // NPH BID vers Dégludec
+        if (insulineld === "nph-bid" && insulinelf === "dégludec") {
             malcom = Math.round(dose * 2 * 0.8);
         }
         // NPH BID vers Icodec
@@ -110,8 +110,8 @@ function FunctionB() {
         if (insulineld === "détémir-die" && insulinelf === "glargine-300") {
             malcom = Math.round(dose);
         }
-        // Détémir DIE vers Déglutec
-        if (insulineld === "détémir-die" && insulinelf === "déglutec") {
+        // Détémir DIE vers Dégludec
+        if (insulineld === "détémir-die" && insulinelf === "dégludec") {
             malcom = Math.round(dose);
         }
         // Détémir DIE vers Icodec
@@ -147,8 +147,8 @@ function FunctionB() {
         if (insulineld === "détémir-bid" && insulinelf === "glargine-300") {
             malcom = Math.round(dose * 1.6);
         }
-        // Détémir BID vers Déglutec
-        if (insulineld === "détémir-bid" && insulinelf === "déglutec") {
+        // Détémir BID vers Dégludec
+        if (insulineld === "détémir-bid" && insulinelf === "dégludec") {
             malcom = Math.round(dose * 1.6);
         }
         // Détémir BID vers Icodec
@@ -185,8 +185,8 @@ function FunctionB() {
         if (insulineld === "glargine-100" && insulinelf === "glargine-200") {
             malcom = Math.round(dose);
         }
-        // Glargine 100u/mL vers Déglutec
-        if (insulineld === "glargine-100" && insulinelf === "déglutec") {
+        // Glargine 100u/mL vers Dégludec
+        if (insulineld === "glargine-100" && insulinelf === "dégludec") {
             malcom = Math.round(dose);
         }
         // Glargine 100u/mL vers Icodec
@@ -222,8 +222,8 @@ function FunctionB() {
         if (insulineld === "glargine-300" && insulinelf === "glargine-300") {
             malcom = Math.round(dose);
         }
-        // Glargine 300u/mL vers Déglutec
-        if (insulineld === "glargine-300" && insulinelf === "déglutec") {
+        // Glargine 300u/mL vers Dégludec
+        if (insulineld === "glargine-300" && insulinelf === "dégludec") {
             malcom = Math.round(dose * 0.8);
         }
         // Glargine 300u/mL vers Icodec
@@ -259,8 +259,8 @@ function FunctionB() {
         if (insulineld === "dégludec" && insulinelf === "glargine-300") {
             malcom = Math.round(dose * 0.8);
         }
-        // DégludecL vers Déglutec
-        if (insulineld === "dégludec" && insulinelf === "déglutec") {
+        // Dégludec vers Dégludec
+        if (insulineld === "dégludec" && insulinelf === "dégludec") {
             malcom = Math.round(dose);
         }
         // Dégludec vers Icodec
@@ -296,8 +296,8 @@ function FunctionB() {
         if (insulineld === "icodec" && insulinelf === "glargine-300") {
             malcom = Math.round(dose / 7);
         }
-        // Icodec vers Déglutec
-        if (insulineld === "icodec" && insulinelf === "déglutec") {
+        // Icodec vers Dégludec
+        if (insulineld === "icodec" && insulinelf === "dégludec") {
             malcom = Math.round(dose / 7);
         }
         // Icodec vers Icodec
