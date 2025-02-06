@@ -36,8 +36,6 @@ function FunctionC() {
         insulinerf1 = "de régulière";
     }
 
-        if (typeof insulinerd1 ==== "string" && typeof insulinerf1 ==== "string" && typeof dose === "number") {
     let yolo1 = dose + "u " + insulinerd1 + " équivaut à " + dose + "u " + insulinerf1;
-        }
     document.getElementById("answer_C").textContent = yolo1;
 }
