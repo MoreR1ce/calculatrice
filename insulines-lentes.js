@@ -308,58 +308,56 @@ function FunctionB() {
 
 
         if (insulineld === "nph-die") {
-            insulineld1 = "NPH DIE";
+            insulineld1 = "de NPH DIE";
         }
         if (insulineld === "nph-bid") {
-            insulineld1 = "NPH BID";
+            insulineld1 = "de NPH BID";
         }
         if (insulineld === "détémir-die") {
-            insulineld1 = "Détémir DIE";
+            insulineld1 = "de détémir DIE";
         }
         if (insulineld === "détémir-bid") {
-            insulineld1 = "Détémir BID";
+            insulineld1 = "de détémir BID";
         }
         if (insulineld === "glargine-100") {
-            insulineld1 = "Glargine 100u/mL";
+            insulineld1 = "de glargine 100u/mL";
         }
         if (insulineld === "glargine-300") {
-            insulineld1 = "Glargine 300u/mL";
+            insulineld1 = "de glargine 300u/mL";
         }
         if (insulineld === "dégludec") {
-            insulineld1 = "Dégludec";
+            insulineld1 = "de dégludec";
         }
         if (insulineld === "icodec") {
-            insulineld1 = "Icodec";
+            insulineld1 = "d'icodec";
         }
 
 
         if (insulinelf === "nph-die") {
-            insulinelf1 = "NPH DIE";
+            insulinelf1 = "de NPH DIE";
         }
         if (insulinelf === "nph-bid") {
-            insulinelf1 = "NPH BID";
+            insulinelf1 = "de NPH BID";
         }
         if (insulinelf === "détémir-die") {
-            insulinelf1 = "Détémir DIE";
+            insulinelf1 = "de détémir DIE";
         }
         if (insulinelf === "détémir-bid") {
-            insulinelf1 = "Détémir BID";
+            insulinelf1 = "de détémir BID";
         }
         if (insulinelf === "glargine-100") {
-            insulinelf1 = "Glargine 100u/mL";
+            insulinelf1 = "de glargine 100u/mL";
         }
         if (insulinelf === "glargine-300") {
-            insulinelf1 = "Glargine 300u/mL";
+            insulinelf1 = "de glargine 300u/mL";
         }
         if (insulinelf === "dégludec") {
-            insulinelf1 = "Dégludec";
+            insulinelf1 = "de dégludec";
         }
         if (insulinelf === "icodec") {
-            insulinelf1 = "Icodec";
+            insulinelf1 = "d'icodec";
         }
 
-
-    
-        let yolo1 = dose + " de " + insulineld + " équivaut à " malcom + " de " + insulinelf;    
+        let yolo1 = dose + "u " + insulineld1 + " équivaut à " + malcom + "u " + insulinelf1;    
         document.getElementById("answer_B").textContent = yolo1;
 }
