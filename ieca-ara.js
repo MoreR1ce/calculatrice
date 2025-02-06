@@ -18,63 +18,63 @@ function FunctionA() {
         }
         // Captopril vers Cizalapril
         if (rxd === "captopril" && rxf === "cizalapril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 15) / 10);
         }
         // Captopril vers Énalapril
         if (rxd === "captopril" && rxf === "enalapril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 3.75) / 10);
         }
         // Captopril vers Fosinopril
         if (rxd === "captopril" && rxf === "fosinopril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 3.75) / 10);
         }
         // Captopril vers Lisinopril
         if (rxd === "captopril" && rxf === "lisinopril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 3.75) / 10);
         }
         // Captopril vers Périndopril
         if (rxd === "captopril" && rxf === "perindopril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 * 4 / 37.5) / 10);
         }
         // Captopril vers Quinapril
         if (rxd === "captopril" && rxf === "quinapril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 3.75) / 10);
         }
         // Captopril vers Ramipril
         if (rxd === "captopril" && rxf === "ramipril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 15) / 10);
         }
         // Captopril vers Trandolapril
         if (rxd === "captopril" && rxf === "trandolapril") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 18.75) / 10);
         }
         // Captopril vers Azilsartan
         if (rxd === "captopril" && rxf === "azilsartan") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 1.875) / 10);
         }
         // Captopril vers Candésartan
         if (rxd === "captopril" && rxf === "candésartan") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 9.375) / 10);
         }
         // Captopril vers Irbésartan
         if (rxd === "captopril" && rxf === "irbesartan") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 * 2) / 10);
         }
         // Captopril vers Losartan
         if (rxd === "captopril" && rxf === "losartan") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 1.5) / 10);
         }
         // Captopril vers Olmésartan
         if (rxd === "captopril" && rxf === "olmésartan") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 3.75) / 10);
         }
         // Captopril vers Telmisartan
         if (rxd === "captopril" && rxf === "telmisartan") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 / 1.875) / 10);
         }
         // Captopril vers Valsartan
         if (rxd === "captopril" && rxf === "valsartan") {
-            malcom = (Math.round(dose * 10) / 10);
+            malcom = (Math.round(dose * 10 * 40 / 37.5) / 10);
         }
 
     // Cizalapril---------------------------------------------------------------------
