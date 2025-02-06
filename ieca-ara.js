@@ -1188,7 +1188,7 @@ function FunctionA() {
         }
 
 
-        let yolo1 = rxd1 + " " + dose + "mg équivaut à " + rxf1 + " " + malcom + "mg";
+        let yolo1 = rxd1 + " " + dose + "mg/24h équivaut à " + rxf1 + " " + malcom + "mg/24h";
         document.getElementById("answer_A").textContent = yolo1;
 
 }
