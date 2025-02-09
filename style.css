@@ -1,3 +1,5 @@
+@media (min-width: 480px) {
+
 html {
     background: aliceblue;
     font-family: "Funnel Sans";
@@ -5,12 +7,56 @@ html {
     margin-right: 10%;
     font-size: 1.5rem;
 }
-
+#answer_B,
+#answer_A,
+#answer_C {
+    margin: 25% 5% 25% 7.5%;
+    border-radius: 10px;
+    text-align: center;
+}
 table {
-  width: 66%;
-  border-collapse: collapse;
-  border: 3px solid black;
-  border-radius: 20px;
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+footer {
+    margin-left: -5%;
+    margin-right: -5%;
+    font-size: 80%;
+    font-style: italic;
+}
+}
+
+@media (max-width: 480px) {
+html {
+    background: aliceblue;
+    font-family: "Funnel Sans";
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 3.5rem;
+}
+table {
+    width: auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+footer {
+    margin-left: none;
+    margin-right: none;
+    font-size: 80%;
+    font-style: italic;
+}
+#answer_A,
+#answer_B,
+#answer_C {
+    font-size: 0.75rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 25% 5% 25% 7.5%;
+}
 }
 
 th,
@@ -32,12 +78,7 @@ footer {
     margin-top: 80px;
 }
 
-footer {
-    margin-left: -5%;
-    margin-right: -5%;
-    font-size: 80%;
-    font-style: italic;
-}
+
 
 #nonitalic {
     font-style: normal;
@@ -94,39 +135,7 @@ button:active {
     transform: translateY(7px);
 }
 
-@media (max-width: 480px) {
-html {
-    margin-left: 3%;
-    margin-right: 3%;
-    font-size: 4rem;
-}
-table {
-    width: auto;
-}
-footer {
-    margin-left: none;
-    margin-right: none;
-}
-#answer_A,
-#answer_B,
-#answer_C {
-    font-size: 0.75rem;
-}
-}
 
-table {
-    width: 90%;
-}
 
-#answer_C {
-    margin: 25% 5% 25% 7.5%;
-    border-radius: 10px;
-    text-align: center;
-}
 
-#answer_B,
-#answer_A {
-    margin: 25% 5% 25% 7.5%;
-    border-radius: 10px;
-    text-align: center;
-}
+
