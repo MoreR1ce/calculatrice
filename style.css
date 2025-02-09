@@ -107,6 +107,11 @@ footer {
     margin-left: none;
     margin-right: none;
 }
+#answer_A,
+#answer_B,
+#answer_C {
+    font-size: 0.75rem;
+}
 }
 
 table {
