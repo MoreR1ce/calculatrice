@@ -358,6 +358,6 @@ function FunctionB() {
             insulinelf1 = "d'icodec";
         }
 
-        let yolo1 = dose + "u " + insulineld1 + " équivaut à " + malcom + "u " + insulinelf1;    
+        let yolo1 = dose + "u " + insulineld1 + " donne " + malcom + "u " + insulinelf1;    
         document.getElementById("answer_B").textContent = yolo1;
 }
