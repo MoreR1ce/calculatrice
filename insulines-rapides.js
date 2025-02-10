@@ -38,7 +38,7 @@ function FunctionC() {
 
 
     if ((insulinerd1 === "de glulisine" || "d'asparte" || "de lispro" || "de régulière") && (insulinerf1 === "de glulisine" || "d'asparte" || "de lispro" || "de régulière") && (dose >= 0)) {
-    yolo1 = dose + "u " + insulinerd1 + " équivaut à " + dose + "u " + insulinerf1;
+    yolo1 = dose + "u " + insulinerd1 + " donne " + dose + "u " + insulinerf1;
     }
     document.getElementById("answer_C").textContent = yolo1;
 }
