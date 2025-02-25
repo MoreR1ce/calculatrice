@@ -15,7 +15,7 @@ html {
     text-align: center;
 }
 table {
-    width: 100%;
+    width: auto;
     border-collapse: collapse;
     border: 3px solid black;
     border-radius: 20px;
