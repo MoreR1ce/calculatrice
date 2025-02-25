@@ -15,7 +15,7 @@ html {
     text-align: center;
 }
 table {
-    width: auto;
+    width: 100%;
     border-collapse: collapse;
     border: 3px solid black;
     border-radius: 20px;
@@ -38,7 +38,7 @@ html {
     font-size: 3.5rem;
 }
 table {
-    width: auto;
+    width: 100%;
     border-collapse: collapse;
     border: 3px solid black;
     border-radius: 20px;
