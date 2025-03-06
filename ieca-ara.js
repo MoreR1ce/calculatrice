@@ -1088,7 +1088,7 @@ function FunctionA() {
             rxd1 = "Captopril";
         }
         if (rxd === "cizalapril") {
-            rxd1 = "Cizalapril";
+            rxd1 = "Cilazapril";
         }
         if (rxd === "enalapril") {
             rxd1 = "Énalapril";
@@ -1142,7 +1142,7 @@ function FunctionA() {
             rxf1 = "captopril";
         }
         if (rxf === "cizalapril") {
-            rxf1 = "cizalapril";
+            rxf1 = "cilazapril";
         }
         if (rxf === "enalapril") {
             rxf1 = "énalapril";
