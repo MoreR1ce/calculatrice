@@ -223,15 +223,14 @@ if (isrsd === "sertraline" && isrsf === "sertraline") {
     if (isrsd != "fluoxetine") {
         yolo1 = isrsd1 + " " + dose + "mg/24h équivaut à " + isrsf1 + " " + malcom + "mg/24h";
     }
+    if (isrsd === "fluoxetine" && isrsf === "fluoxetine") {
+        yolo1 = isrsd1 + " " + dose + "mg/24h équivaut à " + isrsf1 + " " + malcom + "mg/24h";
+    }
     else {
         yolo1 = "Sevrage complet puis attendre 4 à 7 jours avant débuter un autre ISRS";
     }
 
     
-
-    if (isrsd === "fluoxetine" && isrsf === "fluoxetine") {
-        yolo1 = isrsd1 + " " + dose + "mg/24h équivaut à " + isrsf1 + " " + malcom + "mg/24h";
-    }
 
 
     document.getElementById("answer_E").textContent = yolo1;
