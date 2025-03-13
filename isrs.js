@@ -220,7 +220,7 @@ if (isrsd === "sertraline" && isrsf === "sertraline") {
 
 
 
-    if ((isrsd1 != "Fluoxétine") || (isrsf1 != "escitalopram" && "citalopram" && "fluvoxamine" && "paroxétine" && "sertraline")) {
+    if ((isrsd1 != "Fluoxétine") && (isrsf1 != "escitalopram" || "citalopram" || "fluvoxamine" || "paroxétine" || "sertraline")) {
         yolo1 = isrsd1 + " " + dose + "mg/24h équivaut à " + isrsf1 + " " + malcom + "mg/24h";
     }
     else {
