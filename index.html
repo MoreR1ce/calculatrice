@@ -48,7 +48,7 @@
         <tr>
           <th>
               <label for="ieca-ara-départ"> 
-                IECA ou ARA de départ :  
+                IECA ou ARA de départ :
               </label>
           </th>
           <td>
@@ -333,7 +333,154 @@
    </main>
 
 
+<!--Calculatrice statines-->
 
+<div id="calculatrice-statines">
+  <h2>
+Calculatrice de conversion de statines
+</h2>
+<table>
+<tbody>
+<tr>
+  <th>
+      <label for="statine-départ"> 
+        Statine de départ :  
+      </label>
+  </th>
+  <td>
+    <select name="statined" id="statine-départ">
+      <option value="">--Choisissez une option--</option>
+      <option value="atorvastatine">Atorvastatine (Lipitor)</option>
+      <option value="fluvastatine">Fluvastatine (Lescol)</option>
+      <option value="lovastatine">Lovastatine (Mevacor)</option>
+      <option value="pravastatine">Pravastatine (Pravachol)</option>
+      <option value="rosuvastatine">Rosuvastatine (Crestor)</option>
+      <option value="simvastatine">Simvastatine (Zocor)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <th>
+     <label for="dose-départ-statine">
+       Dose de départ (mg/24h) :
+     </label>
+  </th>
+  <td>
+    <input type="number" name="dose-départ-statine-" id="dose-départ-statine" step="5" min="0"/>
+  </td>
+</tr>
+<tr>
+  <th>
+    <label for="statine-finale">
+      Statine finale :  
+    </label>
+  </th>
+  <td>
+    <select name="statinef" id="statine-finale">
+      <option value="">--Choisissez une option--</option>
+      <option value="atorvastatine">Atorvastatine (Lipitor)</option>
+      <option value="fluvastatine">Fluvastatine (Lescol)</option>
+      <option value="lovastatine">Lovastatine (Mevacor)</option>
+      <option value="pravastatine">Pravastatine (Pravachol)</option>
+      <option value="rosuvastatine">Rosuvastatine (Crestor)</option>
+      <option value="simvastatine">Simvastatine (Zocor)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <th colspan="2">
+    <button type="button" id="button_D" onclick="FunctionD()">Calculer!</button>
+    <script src="statines.js"></script>
+    <span id="answer_D">
+    </span>
+  </th>  
+</tr>
+</tbody>
+</table>
+
+  <p>
+* Toutes les valeurs sont arrondies à l'unité près.
+<br>
+* À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé!
+ </p>
+</div>
+</main>
+
+
+<!--Calculatrice ISRS-->
+<div id="calculatrice-isrs">
+  <h2>
+Calculatrice de conversion d'ISRS
+</h2>
+<table>
+<tbody>
+<tr>
+  <th>
+      <label for="isrs-départ"> 
+        ISRS de départ :  
+      </label>
+  </th>
+  <td>
+    <select name="isrsd" id="isrs-départ">
+      <option value="">--Choisissez une option--</option>
+      <option value="citalopram">Citalopram (Celexa)</option>
+      <option value="escitalopram">Escitalopram (Cipralex)</option>
+      <option value="fluoxetine">Fluoxétine (Prozac)</option>
+      <option value="fluvoxamine">Fluvoxamine (Luvox)</option>
+      <option value="paroxetine">Paroxétine (Paxil)</option>
+      <option value="sertraline">Sertraline (Zoloft)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <th>
+     <label for="dose-départ-isrs">
+       Dose de départ (mg/24h) :
+     </label>
+  </th>
+  <td>
+    <input type="number" name="dose-départ-isrs-" id="dose-départ-isrs" step="5" min="0"/>
+  </td>
+</tr>
+<tr>
+  <th>
+    <label for="isrs-finale">
+      ISRS final :  
+    </label>
+  </th>
+  <td>
+    <select name="isrsf" id="isrs-finale">
+      <option value="">--Choisissez une option--</option>
+      <option value="citalopram">Citalopram (Celexa)</option>
+      <option value="escitalopram">Escitalopram (Cipralex)</option>
+      <option value="fluoxetine">Fluoxétine (Prozac)</option>
+      <option value="fluvoxamine">Fluvoxamine (Luvox)</option>
+      <option value="paroxetine">Paroxétine (Paxil)</option>
+      <option value="sertraline">Sertraline (Zoloft)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <th colspan="2">
+    <button type="button" id="button_E" onclick="FunctionE()">Calculer!</button>
+    <script src="isrs.js"></script>
+    <span id="answer_E">
+    </span>
+  </th>  
+</tr>
+</tbody>
+</table>
+
+  <p>
+* ISRS : Inhibiteur sélectif du recaptage de la sérotonine
+<br>
+<br>
+* Toutes les valeurs sont arrondies à l'unité près.
+<br>
+* À noter que cet outil ne remplace pas le jugement clinique d’un professionnel de la santé!
+ </p>
+</div>
+</main>
 
 <!--Bas de page-->    
 
